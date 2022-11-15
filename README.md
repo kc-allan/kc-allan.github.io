@@ -1,4 +1,4 @@
-<title><link href="https://kc-allan.github.io/assets/css/styles.css"></link></title>
+<link href="https://kc-allan.github.io/assets/css/styles.css"></link>
 <h1 align="center">Hi 👋, I'm Allan Cheruiyot</h1>
 <h3 align="center">A passionate Python Developer from Kenya with interest in cyber security and artificial intelligence</h3>
 
