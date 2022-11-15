@@ -1,11 +1,6 @@
 <h1 align="center">Hi 👋, I'm Allan Cheruiyot</h1>
 <h3 align="center">A passionate Python Developer from Kenya with interest in cyber security and artificial intelligence</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kc-allan&label=Profile%20views&color=0e75b6&style=flat" alt="kc-allan" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kc-allan" alt="kc-allan" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/kc_allan_" target="blank"><img src="https://img.shields.io/twitter/follow/kc_allan_?logo=twitter&style=for-the-badge" alt="kc_allan_" /></a> </p>
 
 - 🌱 I’m currently learning **Backend with django, ALX software engineering**
 
