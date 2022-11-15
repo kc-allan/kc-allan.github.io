@@ -1,6 +1,6 @@
 <head><link rel="stylesheet" href="{{ "/assets/css/style.css?v="}}"></link></head>
-<P>
-<h1 align="center">Hi 👋, I'm Allan Cheruiyot</h1>
+<p>
+<h1 align="center">Hi 👋, I am Allan Cheruiyot</h1>
 <h3 align="center">A passionate Python Developer from Kenya with interest in cyber security and artificial intelligence</h3>
 </p>
 
