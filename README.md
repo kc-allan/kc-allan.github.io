@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+<html>
 <head>
 <link rel="stylesheet" href="https:kc-allan.github.io/assets/css/styles.css"/>
 </head>
+<body>
 <p>
 <h1 align="center">Hi 👋, I am Allan Cheruiyot</h1>
 <h3 align="center">A passionate Python Developer from Kenya with interest in cyber security and artificial intelligence</h3>
@@ -17,6 +20,7 @@
 - ⚡ Fun fact **Am your favorite meme lord:)**
 
 <h3 align="left">Connect with me:</h3>
+</body>
 <nav>
 <p align="left">
 <a href="https://twitter.com/kc_allan_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kc_allan_" height="30" width="40" /></a>
@@ -24,3 +28,4 @@
 <a href="https://instagram.com/4k.niche" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="4k.niche" height="30" width="40" /></a>
 </p>
  </nav>
+</html>
