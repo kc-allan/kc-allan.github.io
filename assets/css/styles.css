@@ -1,0 +1,7 @@
+@import "{{ pages-themes/hacker@v0.2.0 }}";
+
+header {
+
+  display: none;
+
+}
