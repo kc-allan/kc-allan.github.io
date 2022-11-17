@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently learning **Backend with django, ALX software engineering**
 
-- 👨‍💻 All of my projects are available at [https://github.com/kc-allan](https://github.com/kc-allan)
+- 👨‍💻 All of my projects are available on [**GITHUB**](https://github.com/kc-allan)
 
 - 💬 Ask me about **Linux, Network Security**
 
