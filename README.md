@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<head>
         <link rel="stylesheet" href="https://kc-allan.github.io/assets/css/styles.css"/>
     </head>
     <body>
@@ -28,4 +26,3 @@
             <a href="https://instagram.com/4k.niche" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="4k.niche" height="30" width="40" /></a>
         </p>
     </nav>
-</html>
