@@ -1,7 +1,254 @@
-@import "{{ pages-themes/hacker@v0.2.0 }}";
+/* Global styles */
+body {
+  font-family:"Consolas", monospace;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding:0;
+  margin:0;
+}
 
+/* Header styles */
 header {
+  background-color: #1A1A1A;
+  padding-bottom:20px;
+  height:40px;
+  padding-left:20px;
+  padding-right:20px;
+  }
+h2 {
+    color:orange;
+}
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:top;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-  display: none;
+nav ul li {
+  margin-right: 20px;
+}
 
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #00FF00;
+}
+
+/* Main section styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+a {
+    color:cyan;
+    text-decoration:none;
+}
+a:hover {
+    color:green;
+}
+section {
+  width: 100%;
+  padding: 10px;
+  border-radius:10px;
+}
+section#about {
+    background-color: #333333;
+    border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+/* Project section styles */
+section#projects {
+  background-color: #333333;
+}
+
+section#projects ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section#projects ul li {
+  margin-bottom: 20px;
+}
+
+section#projects ul li a {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+section#projects ul li a:hover {
+  background-color: #4CAF50;
+}
+
+section#projects ul li a span {
+  margin-right: 10px;
+}
+
+section#projects ul li a img {
+  width: 15px;
+  height: auto;
+  margin-right: 10px;
+  border-radius:15px;
+}
+#projectimage {
+    width:100%;
+    height:170px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     }
+/* Form styles */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+form label {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* Menu button */
+#menu-button {
+  background-color: transparent;
+  border:none;
+  padding-top: 30px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: top;
+  transition: transform 0.3s ease-in-out;
+  z-index:1;
+}
+
+#menu-button.close {
+  transform: rotate(-90deg);
+}
+#menu-button::before,
+#menu-button::before,
+#menu-button::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: green;
+    transition: transform 0.3s ease-in-out;
+}
+
+#menu-button.close::before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#menu-button.close::after {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+#dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+#dropdown-menu a:hover {
+    background-color: #4CAF50;
+}
+#dropdown-menu {
+    top:10px;
+    width: 100%;
+    background-color: #1A1A1A;
+    padding: 10px, 0;
+    height:0;
+    overflow:hidden;
+    border-radius:5px;
+    transition: all 1s ease-in-out;
+    opacity:0;
+    display:flex;
+    flex-direction:column;
+}
+
+#dropdown-menu.show {
+    visibility: visible;
+    height: auto;
+    overflow:visible;
+    opacity:1;
+}
+
+.skills {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding:10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:70px;
+    height:50px;
+}
+.cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
 }
